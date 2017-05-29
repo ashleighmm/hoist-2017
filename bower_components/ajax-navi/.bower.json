@@ -1,0 +1,33 @@
+{
+  "name": "ajax-navi",
+  "authors": [
+    "Yegor Borisenco <pimmey@pimmey.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/pimmey/ajax-navi",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "PACE": "pace#^1.0.2"
+  },
+  "devDependencies": {
+    "js-logger": "^1.3.0"
+  },
+  "_release": "5a24a0c14a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5a24a0c14ae55f572f73e05b908f5c4714007c3b"
+  },
+  "_source": "https://github.com/pimmey/ajax-navi.git",
+  "_target": "*",
+  "_originalSource": "ajax-navi"
+}
