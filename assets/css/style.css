@@ -1,4 +1,8 @@
 /* Eagle */
+body {
+  background-color:#FAFAFA;
+}
+
 .banner {
   
   /*background:url(../../assets/images/sky-grad-grey.jpg) no-repeat;*/
@@ -28,7 +32,7 @@
   z-index: 1;
 }*/
 
-svg {
+#Layer_1 {
   position: absolute;
   animation: diving 3s ease-in-out infinite, diving-rotate 5s ease-in-out infinite, skew 5s ease-in-out infinite;
   margin: 0 auto 0 auto;
@@ -99,3 +103,61 @@ svg {
 .logo {
   border-bottom:none!important;
 }
+
+.grey {
+  background-color:#fafafa!important;
+}
+
+a {
+  color:#dc8c22;
+}
+
+#Layer_2 {
+  height: auto;
+    left: 50%;
+    margin: 0 auto;
+    position: relative;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    z-index: 0;
+}
+.st0 {
+  position:relative!important;
+  left:50%;
+}
+@keyframes kaboom {
+  90% {
+    fill: #151d29;
+  }
+  100% {
+    fill: #FF4C00;
+  }
+} 
+
+.st0 path {
+  fill: #151d29;
+  stroke: #4d4d4d;
+}
+
+.st14 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.05s; }
+.st51 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.1s; }
+.st38 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.15s; }
+.st6 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.20s; }
+.st3 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.25s; }
+.st7 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.30s; }
+.st5 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.35s; }
+.st50 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.4s; }
+.st2 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.45s; }
+.st4 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.5s; }
+.st40 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.55s; }
+.st41 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.6s; }
+.st42 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.65s; }
+.st36 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.7s; }
+.st45 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.75s; }
+.st35 { fill: #151d29; animation: kaboom 2s ease alternate infinite;animation-delay: 0.8s; }
+
+section {
+  padding-bottom: 0.2em;
+}
+
