@@ -165,3 +165,28 @@ section {
     font-size: 1.2rem;
 }
 
+.carousel {
+    height: 200px;
+  }
+
+.carousel-item {
+  height:180px!important;
+  opacity: 1!important;
+  position:relative;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    max-width:100%;
+}
+
+.page-contact {
+  background-color:#dc8c22;
+}
+
+
+
+
+
+
+
