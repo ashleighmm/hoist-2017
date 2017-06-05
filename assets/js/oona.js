@@ -84,7 +84,7 @@ App = {
             // Disabling the button while we're waiting for the response
             $sendButton.attr('disabled', true);
             $.ajax({
-                url: '/mailer/mailer.php',
+                url: 'http://localhost/hoist-2017/mailer/mailer.php',
                 type: 'POST',
                 data: {
                     name: $name.html() || $name.val(),

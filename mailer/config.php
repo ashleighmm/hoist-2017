@@ -1,12 +1,12 @@
 <?php
 
-$my_email = 'my@email.com';
+$my_email = 'ashleigh@hoist.co.za';
 
 $SMTP = array(
     'enabled' => true,
-    'host' => 'smtp.gmail.com',
-    'username' => 'user@gmail.com',
-    'password' => 'password12345',
+    'host' => 'e23.ehosts.com',
+    'username' => 'ashleigh@hoist.co.za',
+    'password' => 'texamanexa@8',
     'port' => 465,
     'encryption' => 'ssl'
 );
