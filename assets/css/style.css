@@ -161,3 +161,52 @@ section {
   padding-bottom: 0.2em;
 }
 
+.flow-text {
+    font-size: 1.2rem;
+}
+
+.carousel {
+    height: 200px;
+  }
+
+.carousel-item {
+  height:180px!important;
+  opacity: 1!important;
+  position:relative;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    max-width:100%;
+}
+
+.page-contact {
+  background-color:#dc8c22;
+}
+
+.page-about {
+  background-color:#fafafa;
+  color: #424242;
+}
+.page-about a, .page-home a, .page-work footer a {
+  color:#dc8c22;
+}
+
+.logo img {
+  margin-top:-13px;
+}
+
+.page-contact footer, .page-contact footer a {
+   color: #424242;
+}
+
+.navbar-fixed nav .page-about .sidenav-toggle, .navbar-fixed nav .page-about a, .navbar-fixed nav ul:not(.side-nav) .page-about a, .page-about .navbar-fixed nav .sidenav-toggle, .page-about .navbar-fixed nav a, .page-about .navbar-fixed nav ul:not(.side-nav) a {
+  color: #424242;
+}
+
+
+
+
+
+
+
